@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import React, { useState } from 'react';
-import CounterApp from './CounterApp';
-import ColorChangerApp from './ColorChangerApp';
+import CommentSection from './CommentSection';
+import ChatBubble from './ChatBubble';
 
 export default function App() {
   return (
     <View style={styles.container}>
-       <CounterApp/>
-      <ColorChangerApp/>
+      <CommentSection/>
+      <ChatBubble/>
     </View>
   );
 }
